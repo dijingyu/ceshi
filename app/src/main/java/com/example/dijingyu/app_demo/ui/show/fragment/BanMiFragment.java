@@ -1,6 +1,5 @@
 package com.example.dijingyu.app_demo.ui.show.fragment;
 
-import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -8,7 +7,6 @@ import android.view.View;
 
 import com.example.dijingyu.app_demo.R;
 import com.example.dijingyu.app_demo.base.BaseFragment;
-import com.example.dijingyu.app_demo.base.BasePresenter;
 import com.example.dijingyu.app_demo.base.Constants;
 import com.example.dijingyu.app_demo.bean.BanMiBean;
 import com.example.dijingyu.app_demo.bean.FollowBean;
@@ -16,7 +14,6 @@ import com.example.dijingyu.app_demo.mvp.presenter.BanMiP;
 import com.example.dijingyu.app_demo.mvp.view.BanMiV;
 import com.example.dijingyu.app_demo.ui.show.adapter.BanMiRlvAdapter;
 import com.example.dijingyu.app_demo.utils.SpUtil;
-import com.example.dijingyu.app_demo.utils.ToastUtil;
 import com.scwang.smartrefresh.layout.SmartRefreshLayout;
 import com.scwang.smartrefresh.layout.api.RefreshLayout;
 import com.scwang.smartrefresh.layout.listener.OnLoadMoreListener;
@@ -39,7 +36,6 @@ public class BanMiFragment extends BaseFragment<BanMiP,BanMiV> implements BanMiV
     private int a = 100;
     private int b = 200;
     private int c = 300;
-    private int d = 400;
 
     @Override
     protected void initView(View inflate) {
