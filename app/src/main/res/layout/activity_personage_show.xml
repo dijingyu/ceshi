@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dijingyu.app_demo.ui.personage.activity.PersonageShowActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView
+        app:cardElevation="@dimen/dp_10"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_62">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            
+            <ImageView
+                android:src="@mipmap/back_white"
+                android:id="@+id/iv_back"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_width="@dimen/dp_17"
+                android:layout_height="@dimen/dp_17"
+                android:layout_marginStart="@dimen/dp_20" />
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:text="@string/personage_show"
+                android:textColor="#333333"
+                android:textSize="@dimen/sp_19" />
+        </RelativeLayout>
+        
+    </android.support.v7.widget.CardView>
+    <TextView
+        android:text="@string/tujing"
+        android:textSize="@dimen/sp_12"
+        android:textColor="#666666"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_12"
+        android:layout_marginTop="@dimen/dp_76"
+        android:layout_marginStart="@dimen/dp_12" />
+    
+    <android.support.v7.widget.CardView
+        android:layout_centerHorizontal="true"
+        app:cardElevation="@dimen/dp_10"
+        app:cardCornerRadius="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_103"
+        android:layout_width="@dimen/dp_355"
+        android:layout_height="@dimen/dp_211">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <View
+                android:background="#f0f0f0"
+                android:layout_marginLeft="@dimen/dp_14"
+                android:layout_marginTop="@dimen/dp_52"
+                android:layout_width="@dimen/dp_327"
+                android:layout_height="@dimen/dp_1"
+                android:layout_marginStart="@dimen/dp_14" />
+
+            <View
+                android:background="#f0f0f0"
+                android:layout_marginLeft="@dimen/dp_14"
+                android:layout_marginTop="@dimen/dp_105"
+                android:layout_width="@dimen/dp_327"
+                android:layout_height="@dimen/dp_1"
+                android:layout_marginStart="@dimen/dp_14" />
+
+            <View
+                android:background="#f0f0f0"
+                android:layout_marginLeft="@dimen/dp_14"
+                android:layout_marginTop="@dimen/dp_158"
+                android:layout_width="@dimen/dp_327"
+                android:layout_height="@dimen/dp_1"
+                android:layout_marginStart="@dimen/dp_14"
+                android:id="@+id/view2" />
+            <RelativeLayout
+                android:id="@+id/rel_tou"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_52">
+                <TextView
+                    android:layout_marginTop="@dimen/dp_18"
+                    android:layout_marginLeft="@dimen/dp_14"
+                    android:textColor="#333333"
+                    android:text="@string/tou"
+                    android:textSize="@dimen/sp_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dp_14" />
+
+                <ImageView
+                    android:id="@+id/iv_tou"
+                    android:layout_marginTop="@dimen/dp_6"
+                    android:layout_marginLeft="@dimen/dp_301"
+                    android:layout_width="@dimen/dp_40"
+                    android:layout_height="@dimen/dp_40"
+                    android:layout_marginStart="@dimen/dp_301" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel_name"
+                android:layout_marginTop="@dimen/dp_1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_52"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/rel_tou">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_14"
+                    android:layout_marginStart="@dimen/dp_14"
+                    android:layout_marginTop="@dimen/dp_17"
+                    android:text="@string/username"
+                    android:textColor="#333333"
+                    android:textSize="@dimen/sp_14" />
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:maxLength="15"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="@dimen/dp_14"
+                    android:layout_marginRight="@dimen/dp_14"
+                    android:layout_marginTop="@dimen/dp_17"
+                    android:textColor="#999999"
+                    android:textSize="@dimen/sp_14" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="@dimen/dp_1"
+                android:id="@+id/rel_sex"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_52"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/rel_name">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_14"
+                    android:layout_marginStart="@dimen/dp_14"
+                    android:layout_marginTop="@dimen/dp_17"
+                    android:text="@string/sex"
+                    android:textColor="#333333"
+                    android:textSize="@dimen/sp_14" />
+                <TextView
+                    android:id="@+id/tv_sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="@dimen/dp_14"
+                    android:layout_marginRight="@dimen/dp_14"
+                    android:layout_marginTop="@dimen/dp_17"
+                    android:textColor="#999999"
+                    android:textSize="@dimen/sp_14" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="@dimen/dp_1"
+                android:id="@+id/rel_qianming"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_52"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/rel_sex">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_14"
+                    android:layout_marginStart="@dimen/dp_14"
+                    android:layout_marginTop="@dimen/dp_17"
+                    android:text="@string/qianming"
+                    android:textColor="#333333"
+                    android:textSize="@dimen/sp_14" />
+
+                <TextView
+                    android:id="@+id/tv_qianming"
+                    android:ellipsize="end"
+                    android:maxLength="15"
+                    android:maxLines="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="@dimen/dp_14"
+                    android:layout_marginRight="@dimen/dp_14"
+                    android:layout_marginTop="@dimen/dp_17"
+                    android:textColor="#999999"
+                    android:textSize="@dimen/sp_14" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    
+    <android.support.v7.widget.CardView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/card"
+        app:cardElevation="@dimen/dp_10"
+        app:cardCornerRadius="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_337"
+        android:layout_width="@dimen/dp_355"
+        android:layout_height="@dimen/dp_111">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <View
+                android:background="#f0f0f0"
+                android:layout_marginLeft="@dimen/dp_17"
+                android:layout_marginTop="@dimen/dp_53"
+                android:layout_width="@dimen/dp_319"
+                android:layout_height="@dimen/dp_1"
+                android:layout_marginStart="@dimen/dp_17" />
+
+            <TextView
+                android:layout_marginLeft="@dimen/dp_14"
+                android:layout_marginTop="@dimen/dp_18"
+                android:textSize="@dimen/sp_14"
+                android:text="@string/up_password"
+                android:textColor="#333333"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_14" />
+
+            <TextView
+                android:layout_marginLeft="@dimen/dp_14"
+                android:layout_marginTop="@dimen/dp_72"
+                android:textSize="@dimen/sp_14"
+                android:text="@string/band_phone"
+                android:textColor="#333333"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_14" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:text="@string/edit_login"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/card"
+        android:id="@+id/bt_edit_login"
+        android:layout_marginTop="@dimen/dp_28"
+        android:background="@drawable/bg_fa6a13toff9d53"
+        android:layout_width="@dimen/dp_355"
+        android:layout_height="@dimen/dp_40" />
+
+</RelativeLayout>

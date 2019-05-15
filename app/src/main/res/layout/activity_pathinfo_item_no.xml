@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/iv_tou"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_width="@dimen/dp_38"
+        android:layout_height="@dimen/dp_38"
+        android:layout_marginStart="@dimen/dp_20" />
+    <TextView
+        android:id="@+id/tv_name"
+        android:textSize="@dimen/sp_14"
+        android:textColor="@color/c_373737"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_marginLeft="@dimen/dp_68"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_68" />
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_below="@id/tv_name"
+        android:textSize="@dimen/sp_10"
+        android:textColor="@color/c_999999"
+        android:layout_marginTop="@dimen/dp_5"
+        android:layout_marginLeft="@dimen/dp_68"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_68" />
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_below="@id/tv_time"
+        android:textSize="@dimen/sp_14"
+        android:textColor="@color/c_636363"
+        android:layout_marginTop="@dimen/dp_14"
+        android:layout_marginLeft="@dimen/dp_68"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_68" />
+    <View
+        android:layout_below="@id/tv_text"
+        android:layout_marginTop="@dimen/dp_22"
+        android:layout_marginLeft="@dimen/dp_40"
+        android:background="@color/c_dcdcdc"
+        android:layout_width="@dimen/dp_306"
+        android:layout_height="@dimen/dp_1"
+        android:layout_marginStart="@dimen/dp_40" />
+</RelativeLayout>

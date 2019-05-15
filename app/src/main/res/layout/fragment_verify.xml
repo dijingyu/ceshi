@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="#ffffff"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.dijingyu.app_demo.ui.PhoneActivity">
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:src="@mipmap/back_white"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_35"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_width="@dimen/dp_25"
+        android:layout_height="@dimen/dp_25"
+        tools:ignore="ContentDescription" />
+    <TextView
+        android:id="@+id/tv_time"
+        android:enabled="false"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_37"
+        android:layout_width="wrap_content"
+        android:textSize="@dimen/sp_14"
+        android:textColor="#999999"
+        android:layout_height="@dimen/dp_20"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/dp_20" />
+
+    <TextView
+        android:layout_width="@dimen/dp_170"
+        android:layout_height="@dimen/dp_38"
+        android:textColor="#373737"
+        android:textSize="@dimen/sp_27"
+        android:text="@string/verify"
+        android:layout_marginTop="@dimen/dp_104"
+        android:layout_marginLeft="@dimen/dp_23"
+        android:layout_marginStart="@dimen/dp_23" />
+
+    <com.example.dijingyu.app_demo.widget.IdentifyingCodeView
+        android:layout_marginTop="@dimen/dp_225"
+        android:id="@+id/icv"
+        app:icv_et_number="4"
+        app:icv_et_width="@dimen/dp_44"
+        app:icv_et_divider_drawable="@drawable/divider_icv"
+        app:icv_et_text_color="#636363"
+        app:icv_et_text_size="@dimen/sp_32"
+        app:icv_et_height="@dimen/dp_56"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp_56"/>
+    <TextView
+        android:id="@+id/tv_tijiao"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp_20"
+        android:textColor="#FA6A13"
+        android:textSize="@dimen/sp_14"
+        android:layout_marginTop="@dimen/dp_314"
+        android:layout_marginLeft="@dimen/dp_158"
+        android:layout_marginStart="@dimen/dp_158" />
+
+</RelativeLayout>

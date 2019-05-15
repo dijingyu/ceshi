@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/edit_first"
+            android:layout_width="@dimen/dp_44"
+            android:layout_height="@dimen/dp_56"
+            android:inputType="number"
+            android:textSize="@dimen/sp_32"
+            android:maxLength="1"
+            android:layout_marginTop="@dimen/dp_255"
+            android:layout_marginLeft="@dimen/dp_55"
+            android:layout_marginStart="@dimen/dp_55"
+            android:textCursorDrawable="@null"
+            android:textAlignment="center"
+            android:background="@drawable/selector_code_edit" />
+        <EditText
+            android:id="@+id/edit_second"
+            android:layout_marginTop="@dimen/dp_255"
+            android:layout_marginLeft="@dimen/dp_30"
+            android:layout_marginStart="@dimen/dp_30"
+            android:layout_width="@dimen/dp_44"
+            android:layout_height="@dimen/dp_56"
+            android:inputType="number"
+            android:textSize="@dimen/sp_32"
+            android:textCursorDrawable="@null"
+            android:textAlignment="center"
+            android:background="@drawable/selector_code_edit" />
+
+        <EditText
+            android:id="@+id/edit_third"
+            android:layout_width="@dimen/dp_44"
+            android:layout_height="@dimen/dp_56"
+            android:inputType="number"
+            android:textSize="@dimen/sp_32"
+            android:maxLength="1"
+            android:textCursorDrawable="@null"
+            android:textAlignment="center"
+            android:background="@drawable/selector_code_edit"
+            android:layout_marginTop="@dimen/dp_255"
+            android:layout_marginLeft="@dimen/dp_30"
+            android:layout_marginStart="@dimen/dp_30" />
+        <EditText
+            android:id="@+id/edit_fourth"
+            android:layout_width="@dimen/dp_44"
+            android:layout_height="@dimen/dp_56"
+            android:inputType="number"
+            android:textSize="@dimen/sp_32"
+            android:maxLength="1"
+            android:textCursorDrawable="@null"
+            android:textAlignment="center"
+            android:layout_marginTop="@dimen/dp_255"
+            android:layout_marginLeft="@dimen/dp_30"
+            android:layout_marginStart="@dimen/dp_30"
+            android:background="@drawable/selector_code_edit" />
+    </LinearLayout>
+</RelativeLayout>

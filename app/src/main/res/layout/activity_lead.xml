@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dijingyu.app_demo.ui.lead.LeadActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.example.dijingyu.app_demo.widget.PreviewIndicator
+        android:id="@+id/per"
+        android:layout_marginBottom="@dimen/dp_43"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp_20"/>
+    <Button
+        android:id="@+id/bt"
+        android:visibility="gone"
+        android:background="@drawable/bg_bt_jian"
+        android:text="@string/experience"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_16"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dp_43"
+        android:layout_alignParentBottom="true"
+        android:layout_width="@dimen/dp_127"
+        android:layout_height="@dimen/dp_40" />
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_10"
+        android:layout_above="@+id/bt_cancel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/black" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:layout_above="@+id/bt_photo_album"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/black" />
+
+    <Button
+        android:id="@+id/bt_cancel"
+        android:textSize="@dimen/sp_18"
+        android:textColor="@color/white"
+        android:text="@string/cancel"
+        android:layout_alignParentBottom="true"
+        android:background="#5a586e"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50" />
+
+    <Button
+        android:id="@+id/bt_photo_album"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:layout_above="@+id/bt_cancel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#5a586e"
+        android:text="@string/photo_album"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_18" />
+
+    <Button
+        android:id="@+id/bt_photograph"
+        android:layout_marginBottom="@dimen/dp_1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:layout_above="@+id/bt_photo_album"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#5a586e"
+        android:text="@string/photograph"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_18" />
+
+</RelativeLayout>

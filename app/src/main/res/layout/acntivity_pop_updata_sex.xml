@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:background="@color/white"
+        app:cardCornerRadius="@dimen/dp_20"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_146"
+        android:layout_above="@+id/bt_cancel"
+        android:layout_marginLeft="@dimen/dp_25"
+        android:layout_marginRight="@dimen/dp_25"
+        android:layout_marginBottom="@dimen/dp_25"
+        android:id="@+id/cardView">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_1"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginRight="@dimen/dp_20"
+                android:layout_above="@+id/bt_f"
+                android:layout_centerHorizontal="true"
+                android:background="@color/c_dcdcdc" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginRight="@dimen/dp_20"
+                android:layout_above="@+id/bt_u"
+                android:background="@color/c_dcdcdc" />
+            <Button
+                android:id="@+id/bt_m"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/bt_f"
+                android:layout_marginBottom="@dimen/dp_1"
+                android:background="@color/white"
+                android:text="@string/m"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_14" />
+
+            <Button
+                android:id="@+id/bt_f"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/bt_u"
+                android:layout_marginBottom="@dimen/dp_1"
+                android:background="@color/white"
+                android:text="@string/f"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_14" />
+
+            <Button
+                android:id="@+id/bt_u"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/white"
+                android:text="@string/u"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_14" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:background="@drawable/bg_bt_yuanjiao_white"
+        android:text="@string/cancel"
+        android:layout_marginLeft="@dimen/dp_25"
+        android:layout_marginRight="@dimen/dp_25"
+        android:layout_alignParentBottom="true"
+        android:textSize="@dimen/sp_14"
+        android:textColor="@color/c_fa6a13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_cancel" />
+</RelativeLayout>

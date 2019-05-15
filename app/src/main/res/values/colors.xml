@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="service">#FA6A13</color>
+    <color name="white">#FFFFFF</color>
+    <color name="c_fcf7fc">#fcf7fc</color>
+    <color name="translucent_white">#61FFFFFF</color>
+    <color name="dedede">#dedede</color>
+    <color name="c_fa6a13">#fa6a13</color>
+    <color name="c_999999">#999999</color>
+    <color name="c_333333">#333333</color>
+    <color name="c_f0f0f0">#f0f0f0</color>
+    <color name="c_373737">#373737</color>
+    <color name="c_636363">#636363</color>
+    <color name="c_eaeaea">#eaeaea</color>
+    <color name="c_ff9d53">#ff9d53</color>
+    <color name="c_dcdcdc">#dcdcdc</color>
+    <color name="c_666666">#666666</color>
+    <color name="c_cecece">#cecece</color>
+</resources>
