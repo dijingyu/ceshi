@@ -36,6 +36,8 @@ public class BanMiFragment extends BaseFragment<BanMiP,BanMiV> implements BanMiV
     private int page = 1;
     private SmartRefreshLayout mSmart;
     private String mToken;
+    private int a = 100;
+    private int b = 200;
 
     @Override
     protected void initView(View inflate) {
