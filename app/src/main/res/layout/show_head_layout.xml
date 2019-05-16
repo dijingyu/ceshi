@@ -333,6 +333,7 @@
             android:layout_marginStart="@dimen/dp_34"
             tools:ignore="ContentDescription" />
         <TextView
+            android:id="@+id/tv_version"
             android:text="@string/version"
             android:textSize="@dimen/sp_12"
             android:textColor="#333333"

@@ -97,9 +97,15 @@ public class ShowActivity extends BaseActivity<PersonageInfoP, PersonageInfoV> i
         ImageView ivTou = inflate.findViewById(R.id.iv_tou);
         TextView name = inflate.findViewById(R.id.tv_name);
         name.setText(sName);
-        TextView bianji = inflate.findViewById(R.id.tv_bianji);
         TextView qianming = inflate.findViewById(R.id.tv_qianming);
         qianming.setText(sQianming);
+        TextView version = inflate.findViewById(R.id.tv_version);
+        version.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                
+            }
+        });
         Glide.with(this).load(photo).apply(request).into(ivTou);
         linearFollow.setOnClickListener(new View.OnClickListener() {
             @Override
